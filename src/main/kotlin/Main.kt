@@ -2,7 +2,7 @@ import java.util.*
 import kotlin.system.exitProcess
 import kotlin.random.Random
 
-fun main(args: Array<String>) {
+fun main() {
     val optionParams = arrayOf("Камень", "Ножницы", "Бумага")
     val gameChoice = getGameChoice(optionParams)
     val userChoice = getUserChoice(optionParams)
